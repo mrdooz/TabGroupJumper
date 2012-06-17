@@ -107,12 +107,13 @@ namespace TabGroupJumper
       int idx = 1;
       foreach (var cmd in jumpCommands) {
 
-        // remove previous version of the command
+/*
+        // remove previous version of the command (only really useful when debugging)
         try {
           commands.Item(CommandPrefix + "." + (String)cmd.cmd, 0).Delete();
         } catch (System.ArgumentException) {
         }
-
+*/
         try {
           Command c = commands.AddNamedCommand2(_addInInstance, cmd.cmd, cmd.buttonText, cmd.toolTip, true, cmd.icon,
             ref contextGUIDS, (int)vsCommandStatus.vsCommandStatusSupported + (int)vsCommandStatus.vsCommandStatusEnabled,
