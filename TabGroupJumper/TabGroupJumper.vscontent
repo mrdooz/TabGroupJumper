@@ -1,0 +1,10 @@
+<VSContent xmlns="http://schemas.microsoft.com/developer/vscontent/2005"> 
+    <Content>
+        <FileName>TabGroupJumper.Addin</FileName>
+        <FileName>TabGroupJumper.dll</FileName>
+        <DisplayName>TabGroupJumper</DisplayName>
+        <Description>Expose keyboard shortcuts for navigation between tab groups</Description>
+        <FileContentType>Addin</FileContentType>
+        <ContentVersion>2.0</ContentVersion>
+    </Content>
+</VSContent>
