@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Extensibility xmlns="http://schemas.microsoft.com/AutomationExtensibility">
+	<HostApplication>
+		<Name>Microsoft Visual Studio</Name>
+		<Version>*</Version>
+	</HostApplication>
+	<Addin>
+		<FriendlyName>TabGroupJumper</FriendlyName>
+		<Description>TabGroupJumper</Description>
+		<Assembly>TabGroupJumper.dll</Assembly>
+		<FullClassName>TabGroupJumper.Connect</FullClassName>
+		<LoadBehavior>1</LoadBehavior>
+		<CommandPreload>1</CommandPreload>
+		<CommandLineSafe>0</CommandLineSafe>
+	</Addin>
+</Extensibility>
