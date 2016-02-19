@@ -2,6 +2,10 @@ TabGroupJumper
 ==============
 Add-in exposing keyboard shortcuts for jumping between left/right tabgroups in VS11
 
+VS2015 Support
+==============
+I've ported the addin to VSIX format to make it compatible with VS2015. The new repo is here: https://github.com/mrdooz/TabGroupJumperVSIX.
+
 
 Building/Installing
 ===================
